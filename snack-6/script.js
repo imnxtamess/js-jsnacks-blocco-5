@@ -18,3 +18,20 @@ console.log(zucchine15Plus);
 
 const zucchine15Minus = zucchine.filter((zucchina) => (zucchina.length < 15))
 console.log(zucchine15Minus);
+
+// bonus
+
+const zucchine15piu = []
+const zucchine15meno = []
+
+for (let i = 0; i < zucchine.length; i++) {
+  const thisZucchina = zucchine[i];
+  if (thisZucchina.length > 15) {
+    zucchine15piu.push(thisZucchina)
+  }
+  else {
+    zucchine15meno.push(thisZucchina)
+  }
+}
+
+console.log(zucchine15piu, zucchine15meno);
