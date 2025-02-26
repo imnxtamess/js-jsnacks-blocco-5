@@ -25,3 +25,18 @@ const students = [
 findStudent = students.find((student) => (student.name === "Marco Lanci"))
 
 console.log(findStudent.class);
+
+
+// Bonus
+
+let foundStudent = ""
+
+for (let i = 0; i < students.length; i++) {
+  const thisStudent = students[i];
+  if (thisStudent.name === "Marco Lanci") {
+    foundStudent += thisStudent.class
+  }
+  break
+}
+
+console.log(foundStudent);
