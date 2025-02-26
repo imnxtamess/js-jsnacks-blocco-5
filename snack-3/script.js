@@ -7,3 +7,14 @@ const newNumbers = numbers.map((number) => {
   return number + 1
 })
 console.log(newNumbers);
+
+// bonus
+
+const numbersPlusOne = []
+
+for (let i = 0; i < numbers.length; i++) {
+  const thisNum = numbers[i];
+  numbersPlusOne.push(thisNum + 1)
+}
+
+console.log(numbersPlusOne);
