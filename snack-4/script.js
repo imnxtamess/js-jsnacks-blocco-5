@@ -14,3 +14,14 @@ const newPosts = posts.map((post) => {
 
 console.log(newPosts);
 
+
+// bonus
+
+const newArray = []
+
+for (let i = 0; i < posts.length; i++) {
+  const thisPost = posts[i];
+  newArray.push(thisPost.author)
+}
+
+console.log(newArray);
