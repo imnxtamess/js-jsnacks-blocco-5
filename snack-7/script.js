@@ -25,3 +25,19 @@ const students = [
 const findStudent = students.find((student) => (student.id === 2))
 
 console.log(findStudent);
+
+// Bonus
+
+let foundStudent = []
+
+for (let i = 0; i < students.length; i++) {
+  const thisStudent = students[i];
+  if (thisStudent.id === 2) {
+    foundStudent.push(thisStudent)
+    break
+  }
+
+
+}
+
+console.log(foundStudent);

@@ -35,8 +35,10 @@ for (let i = 0; i < students.length; i++) {
   const thisStudent = students[i];
   if (thisStudent.name === "Marco Lanci") {
     foundStudent += thisStudent.class
+    break
   }
-  break
+
+
 }
 
 console.log(foundStudent);
